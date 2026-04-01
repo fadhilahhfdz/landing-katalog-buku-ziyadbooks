@@ -2,7 +2,7 @@ import { ApiResponse, Product } from "@/types/api-response";
 
 const API_URL =
   "https://api-dev.ziyadbooks.com/api/v1/ecommerce/auth/products/all/category";
-const BEARER_TOKEN = process.env.NEXT_PUBLIC_ZIYAD_API_TOKEN || "";
+const BEARER_TOKEN = process.env.NEXT_PUBLIC_ZIYADBOOKS_API_TOKEN || "";
 
 export interface PaginatedResponse {
   products: Product[];
