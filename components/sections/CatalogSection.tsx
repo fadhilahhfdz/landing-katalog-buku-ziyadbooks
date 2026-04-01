@@ -69,7 +69,7 @@ export function CatalogSection({
   }, [productsArray, activeFilter, activeSort]);
 
   return (
-    <section id="catalog" className="py-12 md:py-16 bg-gray-50 scroll-mt-16">
+    <section id="catalog" className="py-12 md:py-16 bg-gray-50 md:scroll-mt-16 scroll-mt-32">
       <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
