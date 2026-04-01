@@ -1,4 +1,4 @@
-// inisialisasi tipe data dari api
+// initialize data type from api
 export interface Product {
   id: number;
   name: string;

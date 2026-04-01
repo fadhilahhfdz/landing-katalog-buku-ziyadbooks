@@ -10,7 +10,7 @@ export interface PaginatedResponse {
   lastPage: number;
 }
 
-// logika ambil data katalog buku dari api
+// logic get data buku from api
 export async function fetchProducts(
   page: number = 1,
 ): Promise<PaginatedResponse> {
